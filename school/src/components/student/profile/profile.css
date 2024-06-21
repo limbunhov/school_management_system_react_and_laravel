@@ -1,0 +1,169 @@
+
+.main{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    display: flex;
+    background-color: #424242;
+}
+.content .navbar .logo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items:center ;
+}
+.content .navbar .logo img{
+    width: 60%;
+    height: 70%;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.content .sub-content{
+    width: 80%;
+    height: 100%;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    /* width: 20%; */
+    height: 100%;
+    background-color: #BFC5F8;
+}
+.menu .sub-menu{
+    width: 100%;
+    height: 65px;
+    box-shadow: 0 0 2px;
+    background-color: #BFC5F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+.img img{
+    width: 40px;
+    height: 40px;
+}
+.img i{
+    font-size: 45px;
+}
+.img h3{
+    padding-left: 15px;
+    color: #ffffff;
+}
+.icon{
+    margin-right: 30px;
+}
+.icon i{
+    color: #ffffff;
+}
+.sub-container{
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 80%;
+    height: 100%;
+    background-color: #fff;
+}
+.account{
+    margin-bottom: 50px;
+    gap:90px;
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+.picture{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* background-color: #14238A; */
+}
+.picture img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.sub-container .account{
+    width: 100%;
+    padding: 20px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+    font-size: 22px;
+    padding-top: 50px;
+}
+.text p{
+    text-align: start;
+}
+.sub-container .account .text h2{
+    color: #14238A;
+}
+.sub-container{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.sub-container .account .text p{
+    margin-top: 15px;
+}
+.sub-container span{
+    margin-left: 30px;
+    display: flex;
+    width: 60px;
+    
+}
+.sub-container span button{
+    padding: 10px;
+    width: 80px;
+    height: 30px;
+    
+}
+.info{
+    margin-left: 3rem;
+    gap: 50px;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    
+}
+
+.sub-text, .info_item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 20%;
+    height: 100%;
+    font-size: 22px;
+}
+.sub-text p, .info_item p{
+    padding: 10px 0;
+    font-size: 22px;
+}
+.a{
+    
+    background-color: #efefef;
+    border: none;
+    border-radius: 20px;
+    color: #424242;
+    box-shadow: -5px -5px 7px #f9f9f9,
+                5px 5px 7px #00000026;                
+}
+.a:hover{
+    box-shadow: 2px 2px 2px #f9f9f9,
+                -2px -2px 2px #00000026;
+
+}

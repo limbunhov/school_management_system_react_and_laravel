@@ -1,0 +1,90 @@
+.sidebar {
+  width: 250px;
+  height: 100%;
+  background-color: #99a3fe;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.sidebar .sidebar-header {
+  height: 68.3px;
+  padding: 20px 0 0 20px;
+}
+.sidebar .sidebar-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+.sidebar .sidebar-option {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  padding: 16px 10px 10px 10px;
+}
+.sidebar .sidebar-option:hover {
+  background-color: #7a81f8;
+}
+.sidebar .sidebar-option li {
+  text-decoration: none;
+  padding-left: 30px;
+}
+.sidebar .sidebar-menu a {
+  text-decoration: none;
+  color: #fff;
+}
+.sidebar .sidebar-menu .accordion .accordion-item {
+  padding: 5px;
+  width: 100%;
+  background-color: #99a3fe;
+  border: 1px solid #ccc;
+}
+.sidebar .sidebar-menu .accordion .accordion-item:hover {
+  background-color: #7a81f8;
+}
+.sidebar .sidebar-menu .accordion .accordion-item .accordion-header button {
+  color: #fff;
+  background-color: #99a3fe;
+  padding-left: 35px;
+}
+.sidebar .sidebar-menu .accordion .accordion-item .accordion-header button:hover {
+  background-color: #7a81f8;
+}
+
+.sidebar .sidebar-menu .accordion .accordion-item .accordion-header button span {
+  padding-left: 15px;
+}
+.sidebar .sidebar-menu .accordion .accordion-item .accordion-body {
+  width: 100%;
+  padding: 0;
+}
+.sidebar .sidebar-menu .accordion .accordion-item .accordion-body .in-sidebar-option {
+  width: 100%;
+  background-color: #7a81f8;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  padding: 16px 10px 10px 30px;
+}
+.sidebar .sidebar-menu .accordion .accordion-item .accordion-body .in-sidebar-option:hover {
+  background-color: #a162ff;
+}
+.sidebar .sidebar-menu .accordion .accordion-item .accordion-body .in-sidebar-option li {
+  text-decoration: none;
+  padding-left: 20px;
+}
+.sidebar-header {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+}
+.sidebar-menu li {
+  margin-bottom: 10px;
+}
+.sidebar-menu li span {
+  margin-left: 10px;
+}
+
+

@@ -1,0 +1,95 @@
+body {
+  background-color: #f0f0f0;
+}
+
+.dashboard {
+  .wrapper {
+    // flex-direction: column;
+    // display: flex;
+    // width: 100%;
+    // height: 750px;
+    // padding: 30px;
+
+    .d-box {
+      background-color: #f0f0f0;
+      width: 100%;
+      padding-top: 20px;
+      .veiw-wrapper {
+        // padding-top: 70px;
+        // padding-left: 250px;
+        // width: 100%;
+        // height: 100px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+        .container {
+          width: 280px;
+          height: 140px;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          border-radius: 10px;
+          background-color: white;
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.13);
+          transition: box-shadow 0.3s ease;
+
+          &:hover {
+            box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.374);
+          }
+
+          .icon {
+            margin-right: 30px;
+            border-radius: 35px;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .vertical-line {
+            border-left: 3px solid rgb(255, 112, 112); /* Adjust color and thickness as needed */
+            height: 50px; /* Set the height to match the container */
+            border-radius: 2px;
+            margin-right: 20px;
+          }
+
+          .text-container {
+            margin-top: 5px;
+            justify-content: center;
+            align-items: center;
+
+            span {
+              font-size: 18px;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+
+      .content {
+        padding-left: 280px;
+        padding-right: 30px;
+        width: 100%;
+        height: 100%;
+        // padding: 30px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 60px;
+
+        .statistic {
+          width: 350px;
+          height: 500px;
+          border-radius: 5px;
+          background-color: #ffffff;
+        }
+
+        .calander {
+          width: 100%;
+          height: 500px;
+          border-radius: 5px;
+          background-color: #ffffff;
+        }
+      }
+    }
+  }
+}

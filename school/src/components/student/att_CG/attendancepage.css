@@ -1,0 +1,86 @@
+.ites{
+    padding: 1rem;
+}
+table {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #dedede;
+}
+
+table thead tr th {
+    padding: 20px;
+    border: 1px solid #dedede;
+    color: #000;
+}
+
+table.table-striped tbody tr:nth-of-type(odd) {
+    background: #f9f9f9;
+}
+
+table.result-point tr td.number {
+    width: 100px;
+    position: relative;
+} 
+
+.text-left {
+    text-align: left!important;
+}
+
+table tr td {
+    padding: 10px 20px;
+    border: 1px solid #dedede;
+}
+table.result-point tr td .fa.fa-caret-up {
+    color: green;
+}
+
+table.result-point tr td .fa {
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+}
+
+table tr td {
+    padding: 10px 10px;
+    border: 1px solid #dedede;
+}
+
+table tr td img {
+    max-width: 32px;
+    float: left;
+    margin-right: 11px;
+    margin-top: 1px;
+    border: 1px solid #dedede;
+}
+
+.score{
+    
+    margin-left: 530px;
+    margin-top: -20px ;
+}
+.grade{
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cross-icon::after {
+    content: "\2716"; /* Unicode for the cross (X) symbol */
+    color: red; /* Adjust color as needed */
+    font-size: 20px; /* Adjust font size as needed */
+    margin-left: 5px; /* Adjust spacing between the text and the icon */
+  }
+  
+  .arrow-icon::after {
+    content: "\2192"; /* Unicode for the right arrow symbol */
+    color: green; /* Adjust color as needed */
+    font-size: 20px; /* Adjust font size as needed */
+    margin-left: 5px; /* Adjust spacing between the text and the icon */
+  }
+  
+  .checkmark-icon::after {
+    content: "\2713"; /* Unicode for the checkmark symbol */
+    color: green; /* Adjust color as needed */
+    font-size: 20px; /* Adjust font size as needed */
+  }
+  

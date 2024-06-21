@@ -1,0 +1,17 @@
+.navbar{
+  height: 88px;
+  width: 100%;
+  padding: 26px;
+  background-color: rgb(180, 180, 180);
+  border-bottom: 1px solid rgb(180, 180, 180);
+}
+.navbar-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.navbar-center h1 {
+  margin: 0;
+}
+

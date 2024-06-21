@@ -1,0 +1,144 @@
+.view_assi{
+    height: auto;
+    padding: 3rem;
+}
+.pro_ass{
+   display: flex;
+   gap: 1rem;
+   align-items: center;
+   margin-bottom: .5rem;
+}
+.thumnail_add{
+    width: 2rem;
+    height: 2rem;
+}
+.thumnail_add img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pro_ass p{
+    color: black;
+}
+.card_assi{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    width: 100%;
+    height: 10rem;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 1rem;
+}
+.note_assi h1{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    color: #14238A;
+}
+.note_assi p{
+    padding-left: 1rem;
+    color: #ABAEC1;
+}
+.view_work{
+    cursor: pointer;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 2rem;
+    border:1px solid rgb(88, 88, 88);
+    border-radius: .5rem;
+    transition: 1s linear;
+}
+.view_work p{
+    color: black;
+    font-size: 15px;
+}
+.view_work:hover{
+    background-color: #ABAEC1;
+}
+.create_assi{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+.box_add{
+    width: 700px;
+    height: auto;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1px solid black;
+}
+
+.box_add textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 200px;
+}
+.upload{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0 2rem 0 2rem;
+}
+.file-input {
+    padding: .5rem;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .file-input__input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .file-input__label {
+    background-color: #d77ef5;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .upload button{
+    width: 5rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #F7C1F6;
+    border-radius: .5rem;
+    border: none;
+    transition: .3s linear;
+  }
+  .upload button:hover{
+    background-color: #ABAEC1;
+    transform: scale(1.1);
+  }
+  .create_post{
+    border-radius: .5rem;
+    padding: .5rem;
+    cursor: pointer;
+    width: 10rem;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    background-color: #BFC5F8;
+  }
+  .create_post i{
+    color: black;
+  }
+  .create_post p{
+    color: black;
+    font-weight: bold;
+  }
+  
